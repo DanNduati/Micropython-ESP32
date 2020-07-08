@@ -1,2 +1,2 @@
 # Micropython
-python on bare metal
+python on bare metal(python for microcontrollers)
