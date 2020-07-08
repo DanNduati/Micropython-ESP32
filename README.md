@@ -19,7 +19,7 @@ And then deploy the new firmware using:
 ```
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin
 ```
-
+Hold down the “BOOT/FLASH“, before running the flash command.
 ## Connecting and uploading code to the esp32
 I went for adafruit ampy tool because it is a simple cross-platform command line tool that provides just enough functionality to access MicroPython's filesystem without being too complicated.
 ### installing ampy
