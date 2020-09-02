@@ -9,7 +9,7 @@ The latest stable esptool.py release can be installed from [pypi](http://pypi.py
 $ pip install esptool
 ```
 [![Build Status](https://travis-ci.org/espressif/esptool.svg?branch=master)](https://travis-ci.org/espressif/esptool)
-## Flashing MicroPython Firmware to ESP32/ESP8266
+## Flashing MicroPython Firmware to ESP32
 To download the latest version of MicroPython firmware for the ESP32, go to the [MicroPython Downloads page](https://micropython.org/download#esp32) and scroll all the way down to the ESP32 section
 Using esptool.py you can erase the entire flash chip (all data replaced with 0xFF bytes)::
 ```
