@@ -1,7 +1,7 @@
 # Micropython
 python for microcontrollers
 ## Installation / dependencies
-You will need either.[Python 2.7 or Python 3.4]. or newer(https://www.python.org/downloads/) installed on your system.
+You will need either.[Python 2.7 or Python 3.4](https://www.python.org/downloads/) or newer installed on your system.
 
 The latest stable esptool.py release can be installed from [pypi](http://pypi.python.org/pypi/esptool) via pip:
 
