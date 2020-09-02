@@ -11,11 +11,11 @@ $ pip install esptool
 [![Build Status](https://travis-ci.org/espressif/esptool.svg?branch=master)](https://travis-ci.org/espressif/esptool)
 ## Flashing MicroPython Firmware to ESP32/ESP8266
 To download the latest version of MicroPython firmware for the ESP32, go to the [MicroPython Downloads page](https://micropython.org/download#esp32) and scroll all the way down to the ESP32 section
-Using esptool.py you can erase the flash with the command:
+Using esptool.py you can erase the entire flash chip (all data replaced with 0xFF bytes)::
 ```
 esptool.py --port /dev/ttyUSB0 erase_flash
 ```
-And then burn the new firmware using:
+Binary data can be written to the ESP's flash chip via the serial write_flash command:
 ```
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin
 ```
